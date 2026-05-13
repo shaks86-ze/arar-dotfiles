@@ -1,0 +1,46 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#workspaces, #cpu, #memory, #clock, #custom-arar-logo {
+    background: #050505; /* Casi negro absoluto */
+    color: #E61919;      /* Rojo Alerta */
+    border: 1px solid #E61919;
+    padding: 0px 12px;
+    margin: 0px 3px;
+}
+
+/* El módulo central: Estilo "Visor del Casco" */
+/* Una parte de colores así y lo demás de uno solo */
+#custom-arar-logo {
+    background: #E61919; /* Fondo Rojo completo */
+    color: #050505;      /* Texto Negro */
+    border: 1px solid #E61919;
+    font-weight: 900;
+}
+
+#workspaces button {
+    color: #800000; /* Rojo oscuro para inactivos */
+}
+
+#workspaces button.active {
+    color: #E61919; /* Rojo brillante para el activo */
+    background: #1a0000; /* Un tono de rojo ultra oscuro */
+}
+
+#workspaces button.urgent {
+    background: #ff0000;
+    color: white;
+    animation: blink 0.5s alternate infinite;
+}
+
+@keyframes blink {
+    to { background: #050505; color: #ff0000; }
+}

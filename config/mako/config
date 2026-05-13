@@ -1,0 +1,32 @@
+# --- MAKO ARAR UNIT CONFIG ---
+
+# Tipografía técnica
+font=JetBrainsMono Nerd Font 10
+
+# Estética de la ventana
+background-color=#050505ee
+text-color=#E61919
+border-color=#E61919
+border-size=2
+border-radius=0
+padding=15
+
+# Posición (como un HUD de casco, arriba a la derecha)
+anchor=top-right
+margin=20
+
+# Duración y comportamiento
+default-timeout=5000
+group-by=category
+
+# Estilo para notificaciones de ALTA PRIORIDAD (Urgentes)
+[urgency=high]
+border-color=#FF0000
+text-color=#FFFFFF
+background-color=#800000
+default-timeout=0
+
+# Estilo para notificaciones del sistema (como las de captura de pantalla)
+[category=system]
+border-color=#E61919
+format=<b>%s</b>\n<span color='#800000'>──────────────────</span>\n%b

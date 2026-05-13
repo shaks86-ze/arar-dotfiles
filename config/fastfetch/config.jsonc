@@ -1,0 +1,72 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/logo.txt",
+        "padding": {
+            "top": 2,
+            "right": 4
+        },
+        "color": {
+            "1": "red"
+        }
+    },
+    "display": {
+        "separator": " ❯ ",
+        "color": {
+            "keys": "160", // Rojo Signalis
+            "title": "160"
+        },
+        "key": {
+            "width": 15
+        }
+    },
+    "modules": [
+        {
+            "type": "title",
+            "key": "IDENT",
+            "format": "{1}@{2}"
+        },
+        {
+            "type": "custom",
+            "format": "──────────────────────────────",
+            "color": "242"
+        },
+        {
+            "type": "os",
+            "key": "OS MODULE ",
+            "format": "Eusan-Arch System v.512"
+        },
+        {
+            "type": "kernel",
+            "key": "KERNEL    "
+        },
+        {
+            "type": "uptime",
+            "key": "CYCLES    "
+        },
+        {
+            "type": "packages",
+            "key": "FILES     "
+        },
+        {
+            "type": "shell",
+            "key": "INTERFACE "
+        },
+        {
+            "type": "cpu",
+            "key": "PROCESSOR "
+        },
+        {
+            "type": "memory",
+            "key": "MEM ALLOC "
+        },
+        "break",
+        {
+            "type": "colors",
+            "symbol": "rect",
+            "block": {
+                "range": [0, 7] 
+            }
+        }
+    ]
+}

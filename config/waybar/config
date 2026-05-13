@@ -1,0 +1,37 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "margin-top": 5,
+    "margin-left": 10,
+    "margin-right": 10,
+    "spacing": 5,
+
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": ["custom/arar"],
+    "modules-right": ["cpu", "memory", "clock"],
+
+    "hyprland/workspaces": {
+        "format": "{name}"
+    },
+
+    "custom/arar": {
+        "format": " [ UNIT ARAR-S2301 ] ",
+        "tooltip": false
+    },
+
+   "clock": {
+        "format": " [{:%I:%M %p}] ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "interval": 60
+    },
+
+    "cpu": {
+        "format": " CPU {usage}% "
+    },
+
+    "memory": {
+        "format": " RAM {percentage}% "
+    }
+}
+
