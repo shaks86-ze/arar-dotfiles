@@ -9,7 +9,7 @@ Configuración técnica para Arch Linux + Hyprland basada en el visor de las uni
 
 ## Instalación
 ```bash
-git clone [https://github.com/shaks86-ze/arar-dotfiles.git](https://github.com/tu-usuario/arar-dotfiles.git)
+git clone [https://github.com/shaks86-ze/arar-dotfiles.git](https://github.com/shaks86-ze/arar-dotfiles.git)
 cd arar-dotfiles
 chmod +x install.sh
 ./install.sh
